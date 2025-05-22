@@ -40,6 +40,26 @@
 
 
 
+```bash
+# 进入你本地的项目文件夹
+cd /f/你的项目路径
+
+# 初始化 git 仓库（本地第一次用）
+git init
+
+# 添加所有文件（你也可以选择指定文件）
+git add .
+
+# 创建第一次提交
+git commit -m "Initial commit"
+
+# 关联远程仓库
+git remote add origin https://github.com/Aschenbath/mynotes.git
+
+# 推送到 GitHub（首次需要 -u 设定默认上游分支）
+git push -u origin main
+```
+
 
 
 ## 指令详解
